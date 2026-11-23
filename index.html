@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>HBS — Harshit Booking System | Full Body Satisfaction Guaranteed</title>
+  <meta name="description" content="HBS — Harshit Booking System. A premium personal experience tailored for your complete comfort and satisfaction. Private, discreet, by appointment." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="color-scheme" content="dark" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="HBS — Harshit Booking System" />
+  <meta property="og:description" content="Premium personal experience tailored for your complete comfort and satisfaction. Full Body Satisfaction Guaranteed." />
+  <meta property="og:image" content="assets/img/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="HBS — Harshit Booking System" />
+  <meta name="twitter:description" content="Premium personal experience tailored for your complete comfort and satisfaction." />
+  <meta name="twitter:image" content="assets/img/og-image.jpg" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/sections.css" />
+  <link rel="stylesheet" href="assets/css/commerce.css" />
+  <link rel="stylesheet" href="assets/css/motion.css" />
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5l5 5 10-11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.6l2.5 5.4 5.9.7-4.4 4 1.2 5.8-5.2-3-5.2 3 1.2-5.8-4.4-4 5.9-.7z" fill="currentColor"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5.4c0 4.4-2.9 7.7-7 9.6-4.1-1.9-7-5.2-7-9.6V6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2.2 2.2L15.4 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2.5c.6 5.2 2.3 6.9 7.5 7.5-5.2.6-6.9 2.3-7.5 7.5-.6-5.2-2.3-6.9-7.5-7.5 5.2-.6 6.9-2.3 7.5-7.5Z" fill="currentColor"/><path d="M18.5 16.5c.3 2.1 1 2.8 3 3-2 .3-2.7 1-3 3-.3-2-1-2.7-3-3 2-.2 2.7-.9 3-3Z" fill="currentColor" opacity=".55"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+      <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 9.5h17M8 3.5v3M16 3.5v3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M14.5 6L9 12l5.5 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M9.5 6L15 12l-5.5 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s6.5-5.4 6.5-10.4A6.5 6.5 0 0 0 5.5 10.6C5.5 15.6 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="10.5" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4.8 20c.7-3.6 3.6-5.6 7.2-5.6s6.5 2 7.2 5.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7.2 3.8h2.1l1.4 4-1.9 1.4a12 12 0 0 0 6 6l1.4-1.9 4 1.4v2.1a2.4 2.4 0 0 1-2.6 2.4C10.9 19.8 4.2 13.1 4.8 6.4A2.4 2.4 0 0 1 7.2 3.8Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+      <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 10h18M6.5 14.5h3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+      <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H18v3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><rect x="4" y="8" width="16.5" height="10.5" rx="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16.4" cy="13.3" r="1.2" fill="currentColor"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8.2 10.5V8a3.8 3.8 0 0 1 7.6 0v2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="15.4" r="1.3" fill="currentColor"/></symbol>
+      <symbol id="i-msg" viewBox="0 0 24 24"><path d="M4.5 6.5A2.5 2.5 0 0 1 7 4h10a2.5 2.5 0 0 1 2.5 2.5v6A2.5 2.5 0 0 1 17 15H9.5L5.5 18.5v-3.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-volume" viewBox="0 0 24 24"><path d="M4 9.5h3.4L12 5.6v12.8L7.4 14.5H4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M15.4 9a4.3 4.3 0 0 1 0 6M18.2 6.3a8.2 8.2 0 0 1 0 11.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+      <symbol id="i-volume-x" viewBox="0 0 24 24"><path d="M4 9.5h3.4L12 5.6v12.8L7.4 14.5H4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M16.2 9.9l4.3 4.3M20.5 9.9l-4.3 4.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M19.5 12a7.5 7.5 0 1 1-2.4-5.5M19.5 4v4.2h-4.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    </defs>
+  </svg>
+
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--gold"></div>
+    <div class="ambient__orb ambient__orb--purple"></div>
+    <div class="ambient__grain"></div>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+  <!-- ============================== HEADER ============================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" data-scroll aria-label="HBS — Harshit Booking System, back to top">
+        <span class="brand__mark" aria-hidden="true">H</span>
+        <span class="brand__text"><span class="brand__name">HBS</span><span class="brand__sub">Harshit Booking System</span></span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="#expertise" data-scroll>Expertise</a>
+        <a class="nav__link" href="#gallery" data-scroll>Portfolio</a>
+        <a class="nav__link" href="#packages" data-scroll>Packages</a>
+        <a class="nav__link" href="#availability" data-scroll>Availability</a>
+        <a class="nav__link" href="#contact" data-scroll>Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="sound-toggle" id="sound-toggle" type="button" aria-pressed="true" aria-label="Mute sound effects" title="Sound on">
+          <svg class="icon icon--volume" aria-hidden="true"><use href="#i-volume"/></svg>
+          <svg class="icon icon--muted" aria-hidden="true"><use href="#i-volume-x"/></svg>
+        </button>
+        <a class="btn btn--ghost btn--sm nav__book" href="#packages" data-scroll>Book now</a>
+        <button class="nav__toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="icon icon--menu" aria-hidden="true"><use href="#i-menu"/></svg>
+          <svg class="icon icon--close" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav class="mobile-menu__inner" aria-label="Mobile">
+        <a class="mobile-menu__link" href="#expertise" data-scroll><span>01</span>Expertise</a>
+        <a class="mobile-menu__link" href="#gallery" data-scroll><span>02</span>Portfolio</a>
+        <a class="mobile-menu__link" href="#packages" data-scroll><span>03</span>Packages</a>
+        <a class="mobile-menu__link" href="#availability" data-scroll><span>04</span>Availability</a>
+        <a class="mobile-menu__link" href="#contact" data-scroll><span>05</span>Contact</a>
+        <a class="btn btn--primary mobile-menu__cta" href="#packages" data-scroll>Book your experience</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="hero__welcome" data-reveal>
+            <img class="hero__welcome-img" src="assets/img/welcome.jpg" alt="Harshit giving a thumbs up — welcome to HBS" width="151" height="266" />
+            <div class="hero__welcome-copy">
+              <span class="hero__welcome-title">Welcome to HBS <span class="emoji" aria-hidden="true">👋</span></span>
+              <span class="hero__welcome-sub">Private · Discreet · By appointment</span>
+            </div>
+          </div>
+          <h1 class="hero__title" data-reveal>
+            <span class="hero__title-main">HBS</span>
+            <span class="hero__title-sub">Harshit Booking System</span>
+          </h1>
+          <p class="hero__tagline" data-reveal>Full Body Satisfaction Guaranteed</p>
+          <p class="hero__lead" data-reveal>Premium personal experience tailored for your complete comfort and satisfaction.</p>
+          <p class="hero__signature" data-reveal>
+            <span class="hero__signature-label">Signature</span>
+            <span class="hero__signature-text">YE BAJTA BAHUT ACCHA HAI.... <span class="emoji" aria-hidden="true">😗💦</span></span>
+          </p>
+          <div class="hero__actions" data-reveal>
+            <a class="btn btn--primary btn--lg" href="#packages" data-scroll>
+              Book Your Experience
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#gallery" data-scroll>View portfolio</a>
+          </div>
+          <ul class="hero__trust" data-reveal>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg>Total discretion</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Flexible scheduling</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>Personalised sessions</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" data-reveal>
+          <figure class="portrait">
+            <span class="portrait__frame" aria-hidden="true"></span>
+            <div class="portrait__media">
+              <img class="portrait__img" src="assets/img/harshit-portrait.jpg" alt="Harshit — portrait in a white shirt and navy jacket" width="826" height="1100" fetchpriority="high" />
+              <div class="portrait__veil" aria-hidden="true"></div>
+              <span class="portrait__tag">Harshit · Portrait</span>
+              <figcaption class="portrait__caption">
+                <span class="portrait__name">Harshit</span>
+                <span class="portrait__role">Personal experience specialist</span>
+              </figcaption>
+            </div>
+            <div class="portrait__badge">
+              <svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>
+              <span>Verified professional</span>
+            </div>
+            <div class="portrait__rating">
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <strong>4.9</strong>
+              <span>Average rating</span>
+            </div>
+          </figure>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span class="marquee__item">Ye bajta bahut accha hai 😗💦</span><span class="marquee__sep">◆</span>
+          <span class="marquee__item">Soft &amp; refined physique</span><span class="marquee__sep">◆</span>
+          <span class="marquee__item">Expert massage techniques</span><span class="marquee__sep">◆</span>
+          <span class="marquee__item">Complete aftercare</span><span class="marquee__sep">◆</span>
+          <span class="marquee__item">Professional discretion</span><span class="marquee__sep">◆</span>
+          <span class="marquee__item">Ye bajta bahut accha hai 😗💦</span><span class="marquee__sep">◆</span>
+          <span class="marquee__item">Soft &amp; refined physique</span><span class="marquee__sep">◆</span>
+          <span class="marquee__item">Expert massage techniques</span><span class="marquee__sep">◆</span>
+          <span class="marquee__item">Complete aftercare</span><span class="marquee__sep">◆</span>
+          <span class="marquee__item">Professional discretion</span><span class="marquee__sep">◆</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== EXPERTISE ============================== -->
+    <section class="section expertise" id="expertise">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__eyebrow" data-reveal><span class="section__eyebrow-line" aria-hidden="true"></span>01 — Expertise</p>
+          <h2 class="section__title" data-reveal>Professional Expertise</h2>
+          <p class="section__desc" data-reveal>Ten considered details that shape every session — from the first message to the final goodbye.</p>
+        </header>
+
+        <aside class="signature" data-reveal aria-label="Harshit's signature feature">
+          <span class="signature__glow" aria-hidden="true"></span>
+          <div class="signature__copy">
+            <p class="signature__label"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg>The signature feature</p>
+            <p class="signature__quote">“YE BAJTA BAHUT ACCHA HAI....” <span class="emoji" aria-hidden="true">😗🎶💦💦</span></p>
+            <p class="signature__sub">The one thing every guest mentions — ask for it when you book.</p>
+          </div>
+          <span class="signature__badge" aria-hidden="true">😗</span>
+        </aside>
+
+        <div class="expertise__grid">
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">01</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-spark"/></svg></span>
+            <h3 class="skill-card__title">Exceptional performance</h3>
+            <p class="skill-card__text">Consistent, attentive energy from the first hour to the last.</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">02</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-user"/></svg></span>
+            <h3 class="skill-card__title">Soft &amp; refined physique</h3>
+            <p class="skill-card__text">Considered grooming and a calm, approachable presence.</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">03</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-star"/></svg></span>
+            <h3 class="skill-card__title">Well-maintained aesthetics</h3>
+            <p class="skill-card__text">A polished, presentable look for every single booking.</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">04</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-spark"/></svg></span>
+            <h3 class="skill-card__title">Expert full-body massage techniques</h3>
+            <p class="skill-card__text">Trained hands, considered pressure, genuine relief.</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">05</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-shield"/></svg></span>
+            <h3 class="skill-card__title">High stamina &amp; endurance</h3>
+            <p class="skill-card__text">Long sessions that never lose their quality or care.</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">06</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-msg"/></svg></span>
+            <h3 class="skill-card__title">Excellent communication</h3>
+            <p class="skill-card__text">Clear, respectful conversation before and throughout.</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">07</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+            <h3 class="skill-card__title">Complete aftercare</h3>
+            <p class="skill-card__text">Thoughtful guidance and follow-up after you leave.</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">08</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-refresh"/></svg></span>
+            <h3 class="skill-card__title">Customizable experience</h3>
+            <p class="skill-card__text">Every session shaped around your personal preferences.</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">09</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-pin"/></svg></span>
+            <h3 class="skill-card__title">Attention to detail</h3>
+            <p class="skill-card__text">The small things, done properly, every single time.</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <span class="skill-card__index" aria-hidden="true">10</span>
+            <span class="skill-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-lock"/></svg></span>
+            <h3 class="skill-card__title">Professional discretion</h3>
+            <p class="skill-card__text">Private, judgement-free and entirely confidential.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== GALLERY ============================== -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <header class="section__head section__head--split">
+          <div>
+            <p class="section__eyebrow" data-reveal><span class="section__eyebrow-line" aria-hidden="true"></span>02 — Portfolio</p>
+            <h2 class="section__title" data-reveal>Visual Portfolio</h2>
+          </div>
+          <p class="section__desc" data-reveal>A quiet edit of moments, details and atmosphere — shot in Harshit’s own space, after hours and in between.</p>
+        </header>
+
+        <div class="gallery__grid">
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-formal.jpg" alt="Harshit in a white shirt and navy blazer — editorial portrait" width="826" height="1100" loading="lazy" />
+              <span class="gallery__tag">Portrait 01</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Formal Presence</span><span class="gallery__meta">Editorial portrait</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-candid.jpg" alt="Harshit looking at his phone — candid off-duty moment in a white shirt and navy jacket" width="826" height="1100" loading="lazy" style="object-position:50% 22%" />
+              <span class="gallery__tag">Portrait 02</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Off The Clock</span><span class="gallery__meta">Candid</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-street.jpg" alt="Harshit — low-angle street portrait in a plaid shirt" width="1300" height="976" loading="lazy" style="object-position:62% 50%" />
+              <span class="gallery__tag">Portrait 03</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Street Portrait</span><span class="gallery__meta">Low angle</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-side.jpg" alt="Harshit — side profile" width="751" height="1000" loading="lazy" style="object-position:50% 24%" />
+              <span class="gallery__tag">Portrait 04</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Side Profile</span><span class="gallery__meta">Profile study</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-top.jpg" alt="Harshit — overhead view sitting on stone steps" width="751" height="1000" loading="lazy" style="object-position:50% 42%" />
+              <span class="gallery__tag">Portrait 05</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Top View</span><span class="gallery__meta">Overhead study</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img gallery__img--muted" src="assets/img/harshit-back.jpg" alt="Harshit — back view, physique study" width="591" height="1400" loading="lazy" style="object-position:50% 46%" />
+              <span class="gallery__tag">Portrait 06</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Back View</span><span class="gallery__meta">Physique study</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-hair.jpg" alt="Harshit — close-up of his curly hair from behind" width="751" height="1000" loading="lazy" style="object-position:50% 46%" />
+              <span class="gallery__tag">Portrait 07</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Hair Detail</span><span class="gallery__meta">Grooming</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-front.jpg" alt="Harshit laughing on a bus — front view" width="675" height="1200" loading="lazy" style="object-position:48% 24%" />
+              <span class="gallery__tag">Portrait 08</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Front View</span><span class="gallery__meta">In motion</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-full.jpg" alt="Harshit standing full length in a white shirt and draped navy jacket" width="826" height="1100" loading="lazy" style="object-position:50% 24%" />
+              <span class="gallery__tag">Portrait 09</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Full Look</span><span class="gallery__meta">Full length</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-profile.jpg" alt="Harshit — the profile photo, a close candid selfie" width="450" height="800" loading="lazy" style="object-position:50% 30%" />
+              <span class="gallery__tag">Portrait 10</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">The Profile</span><span class="gallery__meta">Candid</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-quiet.jpg" alt="Harshit with his eyes closed in a calm portrait" width="751" height="1000" loading="lazy" style="object-position:50% 18%" />
+              <span class="gallery__tag">Portrait 11</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Quiet Moment</span><span class="gallery__meta">Calm</span></figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <div class="gallery__media">
+              <img class="gallery__img" src="assets/img/harshit-mid-laugh.jpg" alt="Harshit mid-laugh in a white shirt and navy jacket" width="751" height="1000" loading="lazy" style="object-position:50% 20%" />
+              <span class="gallery__tag">Portrait 12</span>
+            </div>
+            <figcaption class="gallery__caption"><span class="gallery__label">Mid-Laugh</span><span class="gallery__meta">Off guard</span></figcaption>
+          </figure>
+        </div>
+        <p class="gallery__note" data-reveal><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg>A closer look at Harshit — portraits, details and the everyday in-between.</p>
+      </div>
+    </section>
+
+    <!-- ============================== PACKAGES ============================== -->
+    <section class="section packages" id="packages">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <p class="section__eyebrow" data-reveal><span class="section__eyebrow-line" aria-hidden="true"></span>03 — Investment</p>
+          <h2 class="section__title" data-reveal>Select Your Package</h2>
+          <p class="section__desc" data-reveal>Four considered formats. Choose the time that suits you — everything else is tailored around it.</p>
+        </header>
+
+        <div class="packages__grid">
+          <article class="package-card" data-package-card="express" data-reveal>
+            <div class="package-card__head">
+              <p class="package-card__duration"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>2 Hours</p>
+              <span class="package-card__flag">Focused</span>
+            </div>
+            <h3 class="package-card__name">Express Session</h3>
+            <p class="package-card__desc">Focused and efficient experience.</p>
+            <ul class="package-card__features">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Two-hour private session</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Priority areas, considered pressure</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Aftercare notes to take home</li>
+            </ul>
+            <div class="package-card__price-row">
+              <p class="package-card__price"><span class="package-card__currency">₹</span><span class="package-card__amount" data-price-amount>2,999</span></p>
+              <span class="package-card__unit">per session</span>
+            </div>
+            <div class="protection" data-protection data-package-id="express">
+              <div class="protection__top">
+                <span class="protection__label">Protection preference</span>
+                <span class="protection__hint" tabindex="0" role="note" title="Standard includes tested protection. Natural is an uninterrupted experience at +₹1,500.">?</span>
+              </div>
+              <div class="protection__options" role="radiogroup" aria-label="Protection preference for Express Session">
+                <label class="protection__opt">
+                  <input type="radio" name="prot-express" value="standard" checked />
+                  <span class="protection__opt-text">Standard Protection</span>
+                </label>
+                <label class="protection__opt">
+                  <input type="radio" name="prot-express" value="natural" />
+                  <span class="protection__opt-text">Natural Experience <em>+₹1,500</em></span>
+                </label>
+              </div>
+            </div>
+            <p class="package-card__total">Total <strong data-package-total>₹2,999</strong></p>
+            <button class="btn btn--soft package-card__cta" type="button" data-select-package="express">Select package<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </article>
+
+          <article class="package-card package-card--featured" data-package-card="overnight" data-reveal>
+            <span class="package-card__ribbon">Most requested</span>
+            <div class="package-card__head">
+              <p class="package-card__duration"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 Night</p>
+              <span class="package-card__flag">Signature</span>
+            </div>
+            <h3 class="package-card__name">Overnight Experience</h3>
+            <p class="package-card__desc">Complete overnight service with full attention.</p>
+            <ul class="package-card__features">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Overnight stay, uninterrupted</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Multiple massage sessions</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Breakfast &amp; refreshments</li>
+            </ul>
+            <div class="package-card__price-row">
+              <p class="package-card__price"><span class="package-card__currency">₹</span><span class="package-card__amount" data-price-amount>7,999</span></p>
+              <span class="package-card__unit">per night</span>
+            </div>
+            <div class="protection" data-protection data-package-id="overnight">
+              <div class="protection__top">
+                <span class="protection__label">Protection preference</span>
+                <span class="protection__hint" tabindex="0" role="note" title="Standard includes tested protection. Natural is an uninterrupted experience at +₹1,500.">?</span>
+              </div>
+              <div class="protection__options" role="radiogroup" aria-label="Protection preference for Overnight Experience">
+                <label class="protection__opt">
+                  <input type="radio" name="prot-overnight" value="standard" checked />
+                  <span class="protection__opt-text">Standard Protection</span>
+                </label>
+                <label class="protection__opt">
+                  <input type="radio" name="prot-overnight" value="natural" />
+                  <span class="protection__opt-text">Natural Experience <em>+₹1,500</em></span>
+                </label>
+              </div>
+            </div>
+            <p class="package-card__total">Total <strong data-package-total>₹7,999</strong></p>
+            <button class="btn btn--primary package-card__cta" type="button" data-select-package="overnight">Select package<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </article>
+
+          <article class="package-card" data-package-card="weekend" data-reveal>
+            <div class="package-card__head">
+              <p class="package-card__duration"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>2 Nights · 3 Days</p>
+              <span class="package-card__flag">Extended</span>
+            </div>
+            <h3 class="package-card__name">Weekend Package</h3>
+            <p class="package-card__desc">Extended premium experience with multiple sessions.</p>
+            <ul class="package-card__features">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Two nights, three days</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Flexible daily schedule</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Priority booking window</li>
+            </ul>
+            <div class="package-card__price-row">
+              <p class="package-card__price"><span class="package-card__currency">₹</span><span class="package-card__amount" data-price-amount>14,999</span></p>
+              <span class="package-card__unit">per weekend</span>
+            </div>
+            <div class="protection" data-protection data-package-id="weekend">
+              <div class="protection__top">
+                <span class="protection__label">Protection preference</span>
+                <span class="protection__hint" tabindex="0" role="note" title="Standard includes tested protection. Natural is an uninterrupted experience at +₹1,500.">?</span>
+              </div>
+              <div class="protection__options" role="radiogroup" aria-label="Protection preference for Weekend Package">
+                <label class="protection__opt">
+                  <input type="radio" name="prot-weekend" value="standard" checked />
+                  <span class="protection__opt-text">Standard Protection</span>
+                </label>
+                <label class="protection__opt">
+                  <input type="radio" name="prot-weekend" value="natural" />
+                  <span class="protection__opt-text">Natural Experience <em>+₹1,500</em></span>
+                </label>
+              </div>
+            </div>
+            <p class="package-card__total">Total <strong data-package-total>₹14,999</strong></p>
+            <button class="btn btn--soft package-card__cta" type="button" data-select-package="weekend">Select package<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </article>
+
+          <article class="package-card" data-package-card="premium-week" data-reveal>
+            <div class="package-card__head">
+              <p class="package-card__duration"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>7 Days · 6 Nights</p>
+              <span class="package-card__flag">Exclusive</span>
+            </div>
+            <h3 class="package-card__name">Premium Week</h3>
+            <p class="package-card__desc">Full exclusive booking with complete personal service.</p>
+            <ul class="package-card__features">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Seven days, six nights</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Unlimited sessions</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Dedicated daily itinerary</li>
+            </ul>
+            <div class="package-card__price-row">
+              <p class="package-card__price"><span class="package-card__currency">₹</span><span class="package-card__amount" data-price-amount>39,999</span></p>
+              <span class="package-card__unit">per week</span>
+            </div>
+            <div class="protection" data-protection data-package-id="premium-week">
+              <div class="protection__top">
+                <span class="protection__label">Protection preference</span>
+                <span class="protection__hint" tabindex="0" role="note" title="Standard includes tested protection. Natural is an uninterrupted experience at +₹1,500.">?</span>
+              </div>
+              <div class="protection__options" role="radiogroup" aria-label="Protection preference for Premium Week">
+                <label class="protection__opt">
+                  <input type="radio" name="prot-premium-week" value="standard" checked />
+                  <span class="protection__opt-text">Standard Protection</span>
+                </label>
+                <label class="protection__opt">
+                  <input type="radio" name="prot-premium-week" value="natural" />
+                  <span class="protection__opt-text">Natural Experience <em>+₹1,500</em></span>
+                </label>
+              </div>
+            </div>
+            <p class="package-card__total">Total <strong data-package-total>₹39,999</strong></p>
+            <button class="btn btn--soft package-card__cta" type="button" data-select-package="premium-week">Select package<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </article>
+        </div>
+        <p class="packages__note" data-reveal><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg>Every package includes full discretion, fresh linen and a personal aftercare check-in. Rates shown are illustrative for this demo.</p>
+      </div>
+    </section>
+
+    <!-- ============================== AVAILABILITY ============================== -->
+    <section class="section availability" id="availability">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <p class="section__eyebrow" data-reveal><span class="section__eyebrow-line" aria-hidden="true"></span>04 — Availability</p>
+          <h2 class="section__title" data-reveal>Choose Date &amp; Time</h2>
+          <p class="section__desc" data-reveal>Live calendar of upcoming dates. Select a day, then pick the slot that fits your evening.</p>
+        </header>
+
+        <div class="booking-grid">
+          <div class="calendar-panel" data-reveal>
+            <div class="calendar" id="calendar">
+              <div class="calendar__head">
+                <button class="calendar__nav" type="button" id="cal-prev" aria-label="Previous month">
+                  <svg class="icon" aria-hidden="true"><use href="#i-chev-l"/></svg>
+                </button>
+                <p class="calendar__month" id="cal-month" aria-live="polite">—</p>
+                <button class="calendar__nav" type="button" id="cal-next" aria-label="Next month">
+                  <svg class="icon" aria-hidden="true"><use href="#i-chev-r"/></svg>
+                </button>
+              </div>
+              <div class="calendar__weekdays" aria-hidden="true">
+                <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+              </div>
+              <div class="calendar__grid" id="cal-grid" role="grid" aria-label="Booking availability calendar"></div>
+              <div class="calendar__legend">
+                <span class="legend__item"><i class="dot dot--available" aria-hidden="true"></i>Available</span>
+                <span class="legend__item"><i class="dot dot--limited" aria-hidden="true"></i>Limited</span>
+                <span class="legend__item"><i class="dot dot--booked" aria-hidden="true"></i>Booked</span>
+                <span class="legend__item"><i class="dot dot--past" aria-hidden="true"></i>Past</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="slots-panel" data-reveal>
+            <div class="slots-panel__head">
+              <div>
+                <p class="slots-panel__eyebrow">Available times</p>
+                <p class="slots-panel__date" id="slots-date">Select a date to continue</p>
+              </div>
+              <span class="slots-panel__badge" id="slots-badge" hidden></span>
+            </div>
+            <div class="slots" id="slots-list" aria-live="polite"></div>
+            <p class="slots-panel__hint" id="slots-hint">Dates marked “Limited” have fewer windows. Booked dates are already reserved.</p>
+
+            <div class="selection" id="selection" aria-live="polite">
+              <div class="selection__rows">
+                <div class="selection__row"><span>Package</span><strong id="sel-package">Not selected</strong></div>
+                <div class="selection__row"><span>Date</span><strong id="sel-date">—</strong></div>
+                <div class="selection__row"><span>Time</span><strong id="sel-time">—</strong></div>
+                <div class="selection__row selection__row--total"><span>Total</span><strong id="sel-total">—</strong></div>
+              </div>
+              <button class="btn btn--primary btn--block" type="button" id="continue-btn" disabled>Continue to booking<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+              <p class="selection__note" id="selection-note">Select a package, date and time to continue.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== CONTACT ============================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__panel" data-reveal>
+          <div class="contact__glow" aria-hidden="true"></div>
+          <div class="contact__content">
+            <p class="section__eyebrow"><span class="section__eyebrow-line" aria-hidden="true"></span>05 — Reserve</p>
+            <div class="contact__host">
+              <img class="contact__avatar" src="assets/img/harshit-avatar.jpg" alt="Harshit — profile photo" width="420" height="420" loading="lazy" />
+              <div class="contact__host-copy">
+                <span class="contact__host-name">Harshit</span>
+                <span class="contact__host-role">Personal experience specialist · Usually replies within 2 hours</span>
+              </div>
+            </div>
+            <h2 class="contact__title">Ready when you are.</h2>
+            <p class="contact__desc">Reserve a date, choose your time, and the rest is handled personally. Every booking is private, confirmed by hand, and kept entirely between us.</p>
+            <div class="contact__actions">
+              <button class="btn btn--primary btn--lg" type="button" data-open-booking>Start your booking<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+              <a class="btn btn--ghost btn--lg" href="#availability" data-scroll>Check availability</a>
+            </div>
+            <ul class="contact__meta">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Mumbai · By appointment</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Confirmation within 2 hours</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg>Fully confidential</li>
+            </ul>
+          </div>
+          <div class="contact__ornament" aria-hidden="true">
+            <span class="contact__monogram">H</span>
+            <span class="contact__ring"></span>
+            <span class="contact__ring contact__ring--2"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="brand brand--footer" href="#home" data-scroll>
+          <span class="brand__mark" aria-hidden="true">H</span>
+          <span class="brand__text"><span class="brand__name">HBS</span><span class="brand__sub">Harshit Booking System</span></span>
+        </a>
+        <p class="footer__tagline">Full Body Satisfaction Guaranteed</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#expertise" data-scroll>Expertise</a>
+        <a href="#gallery" data-scroll>Portfolio</a>
+        <a href="#packages" data-scroll>Packages</a>
+        <a href="#availability" data-scroll>Availability</a>
+        <a href="#contact" data-scroll>Contact</a>
+      </nav>
+      <div class="footer__legal">
+        <p class="footer__line">HBS – Harshit Booking System | Full Body Satisfaction Guaranteed</p>
+        <p class="footer__copyright">© <span id="footer-year">2026</span> HBS — Harshit Booking System</p>
+        <p class="footer__disclaimer">This is a demonstration website created for entertainment and portfolio purposes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================== MOBILE CTA ============================== -->
+  <div class="mobile-cta" id="mobile-cta">
+    <button class="btn btn--primary btn--block" type="button" data-open-booking>
+      <svg class="icon" aria-hidden="true"><use href="#i-cal"/></svg>Book Now
+    </button>
+  </div>
+
+  <!-- ============================== TOAST ============================== -->
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">
+    <span class="toast__icon"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>
+    <span class="toast__msg" id="toast-msg"></span>
+  </div>
+
+  <!-- ============================== BOOKING MODAL ============================== -->
+  <div class="modal" id="booking-modal" aria-hidden="true">
+    <div class="modal__backdrop" data-close-booking></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="booking-title" aria-describedby="booking-desc">
+      <button class="modal__close" type="button" data-close-booking aria-label="Close booking form">
+        <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+
+      <div class="modal__view" id="booking-view">
+        <header class="booking__head">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Almost there</p>
+          <h2 class="booking__title" id="booking-title">Complete your booking</h2>
+          <p class="booking__desc" id="booking-desc">A few details so Harshit can prepare. Nothing is charged in this demonstration.</p>
+        </header>
+
+        <div class="booking__summary" id="booking-summary">
+          <span class="chip" id="chip-package"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg><span>Package</span></span>
+          <span class="chip" id="chip-date"><svg class="icon" aria-hidden="true"><use href="#i-cal"/></svg><span>Date</span></span>
+          <span class="chip" id="chip-time"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span>Time</span></span>
+          <span class="chip" id="chip-protection"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg><span>Standard</span></span>
+        </div>
+
+        <form class="form" id="booking-form" novalidate autocomplete="on">
+          <div class="field" data-field="name">
+            <label class="field__label" for="bk-name">Full name <span class="field__req" aria-hidden="true">*</span></label>
+            <div class="field__control">
+              <svg class="icon field__icon" aria-hidden="true"><use href="#i-user"/></svg>
+              <input class="field__input" id="bk-name" name="name" type="text" placeholder="e.g. Aarav Sharma" autocomplete="name" aria-describedby="err-name" required />
+            </div>
+            <p class="field__error" id="err-name" role="alert"></p>
+          </div>
+
+          <div class="field" data-field="phone">
+            <label class="field__label" for="bk-phone">Phone number <span class="field__req" aria-hidden="true">*</span></label>
+            <div class="field__control field__control--phone">
+              <span class="field__prefix" aria-hidden="true">+91</span>
+              <svg class="icon field__icon field__icon--phone" aria-hidden="true"><use href="#i-phone"/></svg>
+              <input class="field__input" id="bk-phone" name="phone" type="tel" inputmode="numeric" placeholder="10-digit mobile number" autocomplete="tel-national" aria-describedby="err-phone" required />
+            </div>
+            <p class="field__error" id="err-phone" role="alert"></p>
+          </div>
+
+          <div class="field field--full" data-field="package">
+            <label class="field__label" for="bk-package">Selected package <span class="field__req" aria-hidden="true">*</span></label>
+            <div class="field__control">
+              <svg class="icon field__icon" aria-hidden="true"><use href="#i-spark"/></svg>
+              <select class="field__input field__select" id="bk-package" name="package" aria-describedby="err-package" required>
+                <option value="express">Express Session — 2 Hours · ₹2,999</option>
+                <option value="overnight">Overnight Experience — 1 Night · ₹7,999</option>
+                <option value="weekend">Weekend Package — 2 Nights 3 Days · ₹14,999</option>
+                <option value="premium-week">Premium Week — 7 Days 6 Nights · ₹39,999</option>
+              </select>
+            </div>
+            <p class="field__error" id="err-package" role="alert"></p>
+          </div>
+
+          <div class="field" data-field="date">
+            <label class="field__label" for="bk-date">Selected date <span class="field__req" aria-hidden="true">*</span></label>
+            <div class="field__control">
+              <svg class="icon field__icon" aria-hidden="true"><use href="#i-cal"/></svg>
+              <input class="field__input" id="bk-date" name="date" type="date" aria-describedby="err-date" required />
+            </div>
+            <p class="field__error" id="err-date" role="alert"></p>
+          </div>
+
+          <div class="field" data-field="time">
+            <label class="field__label" for="bk-time">Selected time <span class="field__req" aria-hidden="true">*</span></label>
+            <div class="field__control">
+              <svg class="icon field__icon" aria-hidden="true"><use href="#i-clock"/></svg>
+              <select class="field__input field__select" id="bk-time" name="time" aria-describedby="err-time" required>
+                <option value="">Choose a time</option>
+                <option value="morning">10:00 AM – 12:00 PM</option>
+                <option value="afternoon">2:00 PM – 4:00 PM</option>
+                <option value="evening">6:00 PM – 8:00 PM</option>
+                <option value="night">9:00 PM – 11:00 PM</option>
+                <option value="overnight">Overnight — from 10:00 PM</option>
+              </select>
+            </div>
+            <p class="field__error" id="err-time" role="alert"></p>
+          </div>
+
+          <div class="field field--full" data-field="protection">
+            <span class="field__label" id="protection-label">Protection preference</span>
+            <div class="protection protection--modal" id="bk-protection" role="radiogroup" aria-labelledby="protection-label">
+              <label class="protection__opt protection__opt--card">
+                <input type="radio" name="protection" value="standard" checked />
+                <span class="protection__opt-text"><strong>Standard Protection</strong><em>Included</em></span>
+              </label>
+              <label class="protection__opt protection__opt--card">
+                <input type="radio" name="protection" value="natural" />
+                <span class="protection__opt-text"><strong>Natural Experience</strong><em>+₹1,500</em></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="field field--full" data-field="requests">
+            <label class="field__label" for="bk-requests">Special requests <span class="field__optional">Optional</span></label>
+            <div class="field__control field__control--textarea">
+              <textarea class="field__input field__textarea" id="bk-requests" name="requests" rows="3" maxlength="400" placeholder="Preferences, pressure, allergies, arrival notes…" aria-describedby="err-requests"></textarea>
+            </div>
+            <p class="field__error" id="err-requests" role="alert"></p>
+          </div>
+
+          <fieldset class="field field--full payment" id="payment-fieldset">
+            <legend class="field__label">Payment method</legend>
+            <div class="payment__options">
+              <label class="payment__opt">
+                <input type="radio" name="payment" value="upi" checked />
+                <span class="payment__opt-inner"><svg class="icon" aria-hidden="true"><use href="#i-wallet"/></svg><span>UPI</span></span>
+              </label>
+              <label class="payment__opt">
+                <input type="radio" name="payment" value="card" />
+                <span class="payment__opt-inner"><svg class="icon" aria-hidden="true"><use href="#i-card"/></svg><span>Credit / Debit Card</span></span>
+              </label>
+              <label class="payment__opt">
+                <input type="radio" name="payment" value="location" />
+                <span class="payment__opt-inner"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>Pay at Location</span></span>
+              </label>
+            </div>
+            <p class="payment__note"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg>Demonstration only. No real payment is processed or stored.</p>
+          </fieldset>
+
+          <div class="form__footer">
+            <button class="btn btn--primary btn--block btn--submit" id="booking-submit" type="submit" disabled>
+              <span class="btn__label">Confirm booking</span>
+              <span class="btn__spinner" aria-hidden="true"></span>
+              <svg class="icon btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </button>
+            <p class="form__note" id="form-note">Your details stay private. This demo does not store or transmit anything.</p>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal__view success" id="success-view" hidden>
+        <div class="success__icon" aria-hidden="true">
+          <svg class="icon"><use href="#i-check"/></svg>
+          <span class="success__ring"></span>
+        </div>
+        <p class="success__eyebrow">Confirmed</p>
+        <h2 class="success__title">Booking Confirmed.</h2>
+        <p class="success__line">Full Body Satisfaction Guaranteed. You will be contacted shortly.</p>
+        <div class="success__card">
+          <div class="success__row"><span>Reference</span><strong id="success-ref">HBS-000000</strong></div>
+          <div class="success__row"><span>Package</span><strong id="success-package">—</strong></div>
+          <div class="success__row"><span>Date &amp; time</span><strong id="success-when">—</strong></div>
+          <div class="success__row"><span>Protection</span><strong id="success-protection">—</strong></div>
+          <div class="success__row"><span>Payment</span><strong id="success-payment">—</strong></div>
+          <div class="success__row success__row--total"><span>Total</span><strong id="success-total">—</strong></div>
+        </div>
+        <p class="success__note"><svg class="icon" aria-hidden="true"><use href="#i-msg"/></svg>Keep this reference. Harshit will confirm your slot personally.</p>
+        <div class="success__actions">
+          <button class="btn btn--ghost" type="button" data-close-booking>Close</button>
+          <button class="btn btn--soft" type="button" id="book-again-btn"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg>Book another</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/ui.js" defer></script>
+  <script src="assets/js/sound.js" defer></script>
+  <script src="assets/js/calendar.js" defer></script>
+  <script src="assets/js/booking.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

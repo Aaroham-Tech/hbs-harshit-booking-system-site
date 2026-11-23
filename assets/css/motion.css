@@ -1,0 +1,84 @@
+/* ==========================================================================
+   HBS — Motion choreography: scroll reveals, staggered entrances, ambient
+   micro-interactions. Owned by: Lead. Section-level hover states live in
+   sections.css / commerce.css.
+   ========================================================================== */
+
+/* Reveal on scroll — only when JS is available (no-JS keeps content visible) */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 900ms var(--ease-out), transform 900ms var(--ease-out);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.js [data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Once revealed, release the compositor hint */
+.js [data-reveal].is-visible {
+  will-change: auto;
+}
+
+/* Hero copy enters with a touch more lift and immediacy */
+.hero [data-reveal] {
+  transform: translateY(34px);
+  transition-duration: 1100ms;
+}
+.hero [data-reveal].is-visible {
+  transform: translateY(0);
+}
+
+/* Section titles get a soft gold underline sweep after reveal */
+.section__head--center .section__title,
+.section__head .section__title {
+  position: relative;
+}
+.section__head .section__title::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  margin-top: 1.1rem;
+  background: linear-gradient(90deg, var(--gold), transparent);
+  transition: width 1200ms var(--ease-out) 250ms;
+}
+.section__head--center .section__title::after {
+  margin-inline: auto;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold) 50%,
+    transparent
+  );
+}
+.js .section__head .section__title.is-visible::after {
+  width: 4.5rem;
+}
+
+/* Gentle float for hero badges (sections.css owns their layout) */
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal],
+  .hero [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .section__head .section__title::after {
+    width: 4.5rem;
+    transition: none;
+  }
+}
